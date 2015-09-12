@@ -279,7 +279,7 @@ accessoriesArray = [
 ];
 generalStore = [
  ["Bet your Money/chocos","",localize "STR_WL_ShopDescriptions_chocos","client\icons\health.paa",0],
- ["Vehicle SpeedMode","",localize "STR_WL_ShopDescriptions_speed","client\icons\speed.paa",1000000],
+ ["Vehicle SpeedMode","",localize "STR_WL_ShopDescriptions_speed","client\icons\speed.paa",200000],
   ["CC`s Castle Base","",localize "STR_WL_ShopDescriptions_castle","client\icons\choco.paa",200000],
 ["Nofog for me","",localize "","client\images\choco.paa",10000],
 ["Nofog for me","",localize "","client\images\choco.paa",10000],
@@ -331,20 +331,20 @@ ChopperStoreArray = [
         [5000,"AW159_Lynx_BAF"],
 	[7000,"Ka60_PMC"],
 	[7200,"UH1Y"],
-      [75000,"L39_TK_EP1"],
-        [100000,"Mi24_D"],
-        [110000,"AH64D_EP1"],
-	[125000,"BAF_Apache_AH1_D"],
-        [230000,"AH1Z"],
-	[270000,"Ka52"],
-     [275000,"Su34"],
-	[315000,"Su25_CDF"],
-     [320000,"Su39"], 
-	[250000,"A10"], 
-      [3500000,"F35B"],
-        [10000000,"AV8B2"],
-        [10000000,"Mi24_P"],
-        [5000000,"AV8B"]
+      [25000,"L39_TK_EP1"],
+        [25000,"Mi24_D"],
+        [25000,"AH64D_EP1"],
+	[31000,"BAF_Apache_AH1_D"],
+        [53000,"AH1Z"],
+	[73600,"Ka52"],
+     [50000,"Su34"],
+	[50000,"Su25_CDF"],
+     [52000,"Su39"], 
+	[100000,"A10"], 
+      [100000,"F35B"],
+        [250000,"AV8B"],
+        [250000,"Mi24_P"],
+        [300000,"AV8B2"]
 ];
 vehicleStoreArray = [
 [1000,"CowCycle"],
@@ -399,11 +399,11 @@ vehicleStoreArray = [
  [60000,"BMP2_CDF"],
         [67500,"BMP3"],
 	[72000,"T72_RU"],
-        [800000,"M1A1"],
-	[900000,"T90"],  
-        [1000000,"BAF_FV510_W"],
-      [1000000,"2S6M_Tunguska"],
-   [1000000,"M1A2_TUSK_MG"]
+        [80000,"M1A1"],
+	[90000,"T90"],  
+        [100000,"BAF_FV510_W"],
+      [100000,"2S6M_Tunguska"],
+   [100000,"M1A2_TUSK_MG"]
 ];
 BuildStoreArray = [
 ["Choco BaseCore",1200,"Misc_cargo_cont_tiny",2],

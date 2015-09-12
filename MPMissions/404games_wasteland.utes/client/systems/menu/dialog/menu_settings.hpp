@@ -92,7 +92,7 @@ class menu1d {
             idc  = -1;
             type = CT_STRUCTURED_TEXT;
             size = 0.040;
-            x    = 0.120313 * safezoneW + safezoneX;
+            x    = 0.140313 * safezoneW + safezoneX;
            y = 0.521852 * safezoneH + safezoneY;
             w = 0.65; h = 0.42;
             colorText[] = {0,0,1,0.2};
@@ -191,6 +191,18 @@ class menu1d {
             y = 0.421852 * safezoneH + safezoneY;
             w = 0.125 * safezoneW;
             h = 0.07 * safezoneH;
+
+        };
+                 class loadfunStore222: w_RscButton
+        {
+            idc = -1;
+            onButtonClick = "closeDialog 0;";
+            text = "close";
+
+            x = 0.320313 * safezoneW + safezoneX;
+            y = 0.471852 * safezoneH + safezoneY;
+            w = 0.03 * safezoneW;
+            h = 0.04 * safezoneH;
 
         };
                 class moneyInput: w_RscCombo {

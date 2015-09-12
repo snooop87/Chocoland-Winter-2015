@@ -8,7 +8,8 @@ multikill = multikill +1;
 _killermoney = player getvariable["cmoney",500];
 if(multikill >= 2)then {
   _money = _money * multikill;
-  chocostring =format["[%1,%2]call mk;",multikill,name player];publicvariable"chocostring";
+  _name = name player;
+  chocostring =format["[%1,%2]call mk;",multikill,_name];publicvariable"chocostring";call compile chocostring;
 };
 []call countingbounty;
 _money = floor (_money);

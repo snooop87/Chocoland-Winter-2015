@@ -73,4 +73,5 @@ player addrating 1000000;
 player switchMove "amovpknlmstpsraswpstdnon_gear";
 player setVariable["basecore",0,false];
 [0,player] call statload;
+savePlayer = compile preprocessfile "client\chocofunc\Accountsave.sqf";
 oldunit = nil;

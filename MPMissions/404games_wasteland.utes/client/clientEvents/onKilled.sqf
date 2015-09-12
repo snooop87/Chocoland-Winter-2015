@@ -7,7 +7,7 @@ _kbounty= _killer getvariable ["bounty",1];
 _pbounty= _player getvariable ["bounty",1];
 if(gunner (vehicle _killer) == _killer)then{
 _kbounty= (gunner (vehicle _killer)) getVariable ["bounty",1];};
-_reward = 1000 max floor(_kbounty *_pbounty *1000);
+_reward = 1000 max floor(_kbounty *_pbounty *10000);
 _player setPos [2104,4301,0];
     if(chocoland getvariable["killbounty",0] > 1)then{
 if((random 1) >0.98)then{
