@@ -1,0 +1,140 @@
+#include "addons\R3F\desc_include.h"
+loadScreen   = "Loading.jpg";
+respawn      = "BASE";
+respawnDelay = 0;
+disabledAI   = 1;
+disableChannels[]={0,2,6};
+minScore = 0;
+aiKills  = 1;
+class Header
+{
+    gameType=COOP;
+    minPlayers=1;
+    maxPlayers=66;
+};
+//Dialog includes
+#include "client\systems\common.hpp"
+#include "client\systems\globalchat\dialog\globalchat.hpp"
+#include "client\systems\playerMenu\dialog\player_settings_2.hpp"
+#include "client\systems\playerMenu\dialog\player_settings.hpp"
+#include "client\systems\groups\dialog\groupManagement.hpp"
+#include "client\systems\gunStore\dialog\gunshop_settings.hpp"
+#include "client\systems\generalStore\dialog\genstore_settings.hpp"
+#include "client\systems\adminPanel\dialog\playerMenu.hpp"
+#include "client\systems\adminPanel\dialog\VehicleManagement.hpp"
+#include "client\systems\playerMenu\dialog\teamkill_dialog.hpp"
+#include "addons\proving_ground\PG_config.hpp"
+#include "client\systems\BuildStore\dialog\buildshop_settings.hpp"
+#include "client\systems\class\dialog\class_settings.hpp"
+#include "client\systems\vehicleStore\dialog\vehshop_settings.hpp"
+#include "client\systems\ChopperStore\dialog\chopshop_settings.hpp"
+#include "client\systems\menu\dialog\menu_settings.hpp"
+
+#include "client\systems\confirm\dialog\menu_settings.hpp"
+#include "client\systems\attach\dialog\attach_settings.hpp"
+
+class RscTitles {
+    #include "addons\proving_ground\PG_rsctitles.hpp"
+    #include "client\systems\hud\dialog\hud.hpp"
+    #include "client\systems\playerMenu\dialog\welcome.hpp"
+    #include "client\systems\newicons.hpp"
+    titles[] = {introImage}; // optional
+    class introImage
+    {    
+        idd = -1;    
+        movingEnable = false;
+        duration = 8; // 5 second display time
+        fadein = 1;
+        fadout = 1;
+        name = "IntroImage"; 
+
+        class ControlsBackground
+        {
+            class Background : w_RscText
+            {
+                x = "safeZoneX";
+                y = "safeZoneY";
+                w = "safeZoneW";
+                h = "safeZoneH";
+                colorBackground[] = {0,0,0,1};
+            };
+        };
+        class Controls
+        {
+            class image1: w_RscPicture
+            {    
+                x = "safeZoneX";
+                y = "safeZoneY+((safeZoneH-(safeZoneW/(2048/1024)*(4/3)))/2)"; //Substitute 2048 and 1024 for the x,y dimensions of your image
+                w = "safeZoneW";
+                h = "safeZoneW/(2048/1024)*(4/3)"; //Substitute 2048 and 1024 for the x,y dimensions of your image
+                text = "loading.jpg";
+            };
+        };
+    };
+ 
+};
+
+class CfgSounds
+{
+
+    sounds[] = {multi2,multi3,multi4,multi5,multi6,cow};
+ 
+     class cow
+    {
+
+        name = "cow";
+
+        sound[] = {"Sound\cow.ogg", db-0, 1};
+
+        titles[] = {0};
+    };
+
+    class multi2
+    {
+
+        name = "multi2";
+
+        sound[] = {"Sound\multi2.ogg", db-0, 1};
+
+        titles[] = {0};
+    };
+
+
+    class multi3
+    {
+        name = "multi3";
+
+        sound[] = {"Sound\multi3.ogg", db-0, 1};
+
+        titles[] = {0};
+    };
+
+
+    class multi4
+    {
+        name = "multi4";
+
+        sound[] = {"Sound\multi4.ogg", db-0, 1};
+
+        titles[] = {0};
+    };
+
+
+    class multi5
+    {
+        name = "multi5";
+
+        sound[] = {"Sound\multi5.ogg", db-0, 1};
+
+        titles[] = {0};
+    };
+
+        class multi6
+    {
+        name = "multi6";
+
+        sound[] = {"Sound\multi6.ogg", db-0, 1};
+
+        titles[] = {0};
+    };
+};

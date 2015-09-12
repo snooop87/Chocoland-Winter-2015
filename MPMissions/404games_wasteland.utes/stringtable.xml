@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="Wasteland">
+	<Package name="General">
+		<Key ID="STR_WL_Gen_TeamWEST">
+			<English>BLUFOR</English>
+		</Key>
+		<Key ID="STR_WL_Gen_TeamWEST_2">
+			<English>BLUFOR</English>
+		</Key>
+		<Key ID="STR_WL_Gen_TeamEAST">
+			<English>OPFOR</English>
+		</Key>
+		<Key ID="STR_WL_Gen_TeamEAST_2">
+			<English>OPFOR</English>
+		</Key>
+		<Key ID="STR_WL_Gen_TeamGUER">
+			<English>Independent</English>
+		</Key>
+		<Key ID="STR_WL_Gen_TeamGUER_2">
+			<English>Independent</English>
+		</Key>
+		<Key ID="STR_WL_Gen_Warning">
+			<English>Warning!</English>
+		</Key>
+	</Package>
+	<Package name="Loading">
+		<Key ID="STR_WL_Loading_Teamkiller">
+			<English>You are considered team-killer and therefore not allowed in BLUFOR or OPFOR teams. You will shortly be kicked back to the lobby where you can only join Independent and killing anyone is allowed.</English>
+		</Key>
+		<Key ID="STR_WL_Loading_Teamswitched">
+			<English>You have played as %1 for too long and cannot switch to the other team. You can still play as Independent.</English>
+		</Key>
+	</Package>
+	<Package name="Gameplay">
+		<Key ID="STR_WL_Action_Refuel_DriverSeat">
+			<English>Please enter driver seat before attempting to refuel the vehicle.</English>
+		</Key>
+	</Package>
+	<Package name="WelcomeMessage">
+		<Key ID="STR_WL_WelcomeToWasteland">
+			<English>&lt;t color='#FF9E9E' size='2.5' &gt;Welcome to ChocoLand&lt;t color='#FFFFFF' size='1' &gt;</English>
+		</Key>
+		<Key ID="STR_WL_YouAreInTeam">
+			<English></English>
+		</Key>
+		<Key ID="STR_WL_YouAreInFFA">
+			<English></English>
+		</Key>
+		<Key ID="STR_WL_MapMoreInfo">
+			<English>&lt;t color='#FFFFFF' size='1.5' &gt;&lt;br/&gt;Please report all bugs/problems to http://heavensdelight.de&lt;br/&gt;Server restart times: 9PM (GMT)&lt;br/&gt;&lt;t color='#17FF41' size='1.5' &gt;chocos :you get chocos for killing npcs and Players and you can find it on the Island, all your money will multiplier your chocos!&lt;/t&gt;&lt;br/&gt; CHANGES : you can find the patchnotes on our great website: www.heavensdelight.de</English>
+		</Key>
+	</Package>
+	<Package name="TeamKillWarningMessage">
+		<Key ID="STR_TK_MESSAGE">
+			<English>&lt;t size='2' color='#ff0000'&gt;Team killing is against the rules!&lt;/t&gt;&lt;br/&gt;If this was a mistake then you must explain yourself and say sorry, otherwise they will mark you as team-killer and you will get kicked.</English>
+		</Key>
+	</Package>
+	<Package name="Diary">
+		<Key ID="STR_WL_Diary_RulesContent">
+			<English></English>
+		</Key>
+	</Package>
+	<Package name="Shop">
+		<Key ID="STR_WL_Shop_Marker_GunStore">
+			<English>Guns</English>
+		</Key>
+		<Key ID="STR_WL_Shop_Marker_GenStore">
+			<English>Generals</English>
+		</Key>
+		<Key ID="STR_WL_Shop_Marker_Empty">
+			<English>Unoccupied</English>
+		</Key>
+		<Key ID="STR_WL_Shop_Marker_Enemy">
+			<English>Enemy players here</English>
+		</Key>
+		<Key ID="STR_WL_Shop_Marker_Friendly">
+			<English>Friendly players</English>
+		</Key>
+		<Key ID="STR_WL_Shop_Marker_Mixed">
+			<English>Enemy and friendly players</English>
+		</Key>
+		<Key ID="STR_WL_Shop_Message_EnemyApproaching">
+			<English>Enemy player just entered the area</English>
+		</Key>
+	</Package>
+	<Package name="ShopDescriptions">
+<Key ID="STR_betchocos"><English>Gamble with your Chockills to double them(50% Chance of winning).</English></Key>
+<Key ID="STR_cow04"><English>Transform to a cow and surprise your enemys with a huge explosion when there attacks you!</English></Key>
+<Key ID="STR_goat"><English>Transform to a goat and surprise your enemys with a huge explosion when there attacks you!</English></Key>
+<Key ID="STR_rweapon"><English>Generates a random weapon and gives it you twice!</English></Key>
+<Key ID="STR_name"><English>Advertise yourself or anger your enemys after you owned them.</English></Key>
+<Key ID="STR_rvehicle"><English>Let a random vehicle parachute above you!</English></Key>
+<Key ID="STR_dance"><English>Explains itself...</English></Key>
+<Key ID="STR_hen"><English>Transform to a hen and surprise your enemys with a huge explosion when there attacks you!</English></Key>
+<Key ID="STR_delete"><English>Delete a random object instantly(works with locked objects too).</English></Key>
+<Key ID="STR_shepard"><English>Transform to a dog and surprise your enemys with a huge explosion when there attacks you!</English></Key>
+<Key ID="STR_rabbit"><English>Transform to a rabid and surprise your enemys with a huge explosion when there attacks you!</English></Key>
+<Key ID="STR_tele"><English>Press on a place you want to be teleported to.</English></Key>
+<Key ID="STR_spectate"><English>Be NSA and spectate players in any way.</English></Key>
+<Key ID="STR_iammo1"><English>Let's your weapon shoot infinite ammo for one minute.</English></Key>
+<Key ID="STR_recoil"><English>Remove recoil untill you die and let a random vehicle parachute above you.</English></Key>
+<Key ID="STR_1click"><English>Generates a base in front of you with one click. </English></Key>
+<Key ID="STR_Satcom"><English>Google Maps ArmA 2 Edition - Impress yourself! </English></Key>
+<Key ID="STR_Baseshield"><English>Gives your base a red shield for 1 minute with a radius of 60 meters. Nothing can kill you in your shield once actived.</English></Key>
+<Key ID="STR_speed"><English>Increase your vehicles speed up to 250%! </English></Key>
+<Key ID="STR_bot"><English>Recruit up to 12 soldiers with weapons. </English></Key>
+<Key ID="STR_fly"><English>Play as Mindfreak and fly across the sky. Shooting while flying possible too! </English></Key>
+<Key ID="STR_decoder"><English> Buy Decoder for 25 Chocos / 250.000$! </English></Key>
+<Key ID="STR_basebuilder"><English>Buy Basebuilder for 25 Chocos / 250.000$! </English></Key>
+<Key ID="STR_inv"><English>Be a ghost and scare the shit out of your enemys! But watch out, you still can be killed. </English></Key>
+<Key ID="STR_kill"><English>Kills the chosen victim instantly! </English></Key>
+<Key ID="STR_iammo3"><English>Let's your weapon shoot infinite ammo for three minutes. </English></Key>
+<Key ID="STR_suicide"><English>Enough of your depressive life? Why don't you kill yourself? </English></Key>
+<Key ID="STR_Mothership"><English>Teleports you into a undestroyable frigate with ZU23's and Grenade Launchers. </English></Key>
+
+
+		<Key ID="STR_WL_ShopDescriptions_Water">
+			<English>Choco Premium Spring Water. This water contains 200% more flavour than other leading brands.</English>
+		</Key>
+		<Key ID="STR_WL_ShopDescriptions_Camo">
+			<English>Become a Choco, Explode everything you want. Warning this does only work With chocos (1 chocos ->1 Destroyed Object, 10chocos -> 10 Objects)</English>
+		</Key>
+<Key ID="STR_WL_ShopDescriptions_decoder">
+			<English>Become a Decoder, Destroy everything you want for few $ of objectcost. infritrate bases, destroy Dreams (Important: you have only a chance to destroy BasebuilderObjects by 10%)</English>
+		</Key>
+<Key ID="STR_WL_ShopDescriptions_basebuilder">
+			<English>Become a BaseBuilder, create wonderful Bases with your Special bonus, your Objects will return after Restarts for Ever and you only pay 50% forEver in the ParaStore-Buildings</English>
+		</Key>
+<Key ID="STR_WL_ShopDescriptions_rainbow">
+			<English>you will get a Rainbow Command, and if you activate it, you will be pretty colorful happy</English>
+		</Key>
+<Key ID="STR_WL_ShopDescriptions_chocos">
+			<English>you have a chance of 50% to double your Money, if you're unlucky you'll loose your Money</English>
+		</Key>
+<Key ID="STR_WL_ShopDescriptions_speed">
+			<English>Increase your Vehicle Speed. Press 1 Time Shift and W to accelerate and V button is the brake, available aslong the Client is Connected</English>
+		</Key>
+<Key ID="STR_WL_ShopDescriptions_castle">
+			<English>by CC NOR, our Greatest Player on Earth, be a part of our Great Community and build this Wonderful Castle on your Favorite Position.</English>
+		</Key>
+		<Key ID="STR_WL_ShopDescriptions_CanFood">
+			<English>Choco Value Cat food. Heat treated and sealed in a 100% steel can for extra long shelf life. Warning: contents may contain organs.</English>
+		</Key>
+		<Key ID="STR_WL_ShopDescriptions_RepairKit">
+			<English>This magic box will repair, refuel any mechanical device to its former glory. </English>
+		</Key>
+		<Key ID="STR_WL_ShopDescriptions_MedKit">
+			<English>Restore your health back to full. Disclaimer: This product was tested on animals and at least 5 bunnies, 3 cows and 1 make-up wearing pig died as a result.</English>
+		</Key>
+		<Key ID="STR_WL_ShopDescriptions_fuelFull">
+			<English>Top quality imported Russian petroleum, now with 10% less Stalin!</English>
+		</Key>
+		<Key ID="STR_WL_ShopDescriptions_fuelEmpty">
+			<English>Straight off the back of a lorry, this 'can will last a lifetime.</English>
+		</Key>
+		<Key ID="STR_WL_ShopDescriptions_spawnBeacon">
+			<English>Costs 1% of your Money.Every player can link to it and spawns directly at the beacon.</English>
+		</Key>
+	</Package>
+	<Package name="Dialogs">
+		<Key ID="STR_WL_dialog_TeamkillText">
+			<English>You have been team-killed by %2 player %1.&lt;br/&gt;&lt;br/&gt;If this was an accident then forgive them, otherwise they should explain their actions.&lt;br/&gt;&lt;br/&gt;If the player does not explain why then select Punish or Announce.</English>
+		</Key>
+	</Package>
+	<Package name="Actions">
+		<Key ID="STR_WL_Acts_PlayerMenu">
+			<English>Choco Menu</English>
+		</Key>
+	</Package>
+	<Package name="Errors">
+		<Key ID="STR_WL_Errors_InProgress">
+			<English>You are already performing another action!</English>
+		</Key>
+		<Key ID="STR_WL_Errors_InVehicle">
+			<English>You are currently busy</English>
+		</Key>
+		<Key ID="STR_WL_Errors_BeaconActive">
+			<English>You already have an active spawn Beacon</English>
+		</Key>
+		<Key ID="STR_WL_Errors_BeaconInVehicle">
+			<English>You cannot enter a vehicle while placing a spawn Beacon</English>
+		</Key>		
+		<Key ID="STR_WL_Errors_BeaconTooMany">
+			<English>You are already have too many of that object</English>
+		</Key>						
+	</Package>
+</Project>

@@ -1,0 +1,10 @@
+#define confirm_DIALOG 2001
+#define confirm_item_TEXT 2002
+#define confirm_item_list 2003
+#define confirm_money 2004
+#define confirm_item_pic 2005
+#define confirm_item_info 2006
+#define confirm_cart 2007
+#define confirm_total 2008
+#define confirm_buysell 2020
+#define confirm_item_Info 2021

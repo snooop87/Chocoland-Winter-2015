@@ -1,0 +1,11 @@
+#define class_DIALOG 2001
+#define class_item_TEXT 2002
+#define class_item_list 2003
+#define class_money 2004
+#define class_item_pic 2005
+#define class_item_info 2006
+#define class_cart 2007
+#define class_total 2008
+#define class_buysell 2020
+#define class_item_Info 2021
+#define class_vehicle_pic 2010

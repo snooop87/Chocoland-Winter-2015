@@ -1,0 +1,17 @@
+ RESCUE= true;
+ dir=getdir player; _pos = getposatl player;
+ _pos = [(_pos select 0)+5*sin(dir),(_pos select 1)+5*cos(dir),(_pos select 2)];_grp = creategroup civilian;
+ _spawn = _grp createunit ["Cow02",_pos,[],0,"FORM"];  _spawn setPos _pos; spawn2 setdir ( getdir player); 
+ spawn2 = createVehicle["A10",_pos,[], 0,"CAN_COLLIDE"]; spawn2 setdir ( getdir player);_spawn attachto [spawn2,[-0.2,4,0.65]];
+  _spawn = _grp createunit ["Rabbit",_pos,[],0,"FORM"];  _spawn setPos _pos; _spawn attachto [spawn2,[-0.2,4,2]];
+    _spawn = _grp createunit ["Rabbit",_pos,[],0,"FORM"];  _spawn setPos _pos; _spawn attachto [spawn2,[-0.3,4,2.3]];
+      _spawn = _grp createunit ["Rabbit",_pos,[],0,"FORM"];  _spawn setPos _pos; _spawn attachto [spawn2,[0.2,4,2]];
+        _spawn = _grp createunit ["Rabbit",_pos,[],0,"FORM"];  _spawn setPos _pos; _spawn attachto [spawn2,[0.3,4,2.3]];
+  spawn2 setObjectTexture [0, ""];spawn2 setObjectTexture [1, ""];spawn2 setObjectTexture [2, ""];
+   publicvariable"spawn2";       
+ chocostring = "spawn2 setobjecttexture [1,''];spawn2 setobjecttexture [0,''];spawn2 setobjecttexture [2,''];";
+ publicvariable"chocostring";
+ player moveindriver spawn2;  player assignAsDriver spawn2;vehicle player setvehicleammo 0; spawn2 addWeapon "CMFlareLauncher";spawn2 addMagazine "120Rnd_CMFlare_Chaff_Magazine";
+saveVehId = (vehicle player) addAction [format ["<t color='#FF9900'>%1</t>", "hey cow <3"], "addons\scripts\cow.sqf",[],10,false,false,"","local player"];
+waituntil {sleep 1;!alive _spawn};
+ RESCUE= false;

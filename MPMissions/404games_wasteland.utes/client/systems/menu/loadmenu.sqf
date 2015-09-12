@@ -1,0 +1,10 @@
+#include "dialog\menuDefines.sqf";
+disableSerialization;
+_chopshopDialog = createDialog "menu1d";
+_chopshopDialog = findDisplay menu_DIALOG;
+_mvalue         = _chopshopDialog displayCtrl player_value2;
+_Index          = 0;
+_Index          = _mvalue lbadd "Random"; _mvalue lbSetData [(lbSize _mvalue)-1, "Random"];
+_Index          = _mvalue lbadd "Paradrop"; _mvalue lbSetData [(lbSize _mvalue)-1, "Paradrop"];
+_Index          = _mvalue lbadd "Beacon"; _mvalue lbSetData [(lbSize _mvalue)-1, "Beacon"];
+_mvalue lbSetCurSel (SPAWNART -1);

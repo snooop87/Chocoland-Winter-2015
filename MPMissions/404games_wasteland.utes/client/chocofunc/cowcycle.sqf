@@ -1,0 +1,13 @@
+ RESCUE= true;
+ dir=getdir player; _pos = getposatl player;
+ _pos = [(_pos select 0)+5*sin(dir),(_pos select 1)+5*cos(dir),(_pos select 2)];_grp = creategroup civilian;
+ _spawn = _grp createunit ["Cow04",_pos,[],0,"FORM"];  _spawn setPos _pos; 
+ spawn2 = createVehicle["Old_moto_TK_Civ_EP1",_pos,[], 0,"CAN_COLLIDE"];
+ spawn2 setdir ( getdir player);_spawn attachto [spawn2,[-0.2,-0.55,-1.8]];  spawn2 setObjectTexture [0, ""];spawn2 setObjectTexture [1, ""];
+ publicvariable"spawn2";       
+ chocostring = "spawn2 setobjecttexture [1,''];spawn2 setobjecttexture [0,''];";
+ publicvariable"chocostring";
+ player moveindriver spawn2;  player assignAsDriver spawn2;
+saveVehId = (vehicle player) addAction [format ["<t color='#FF9900'>%1</t>", "hey cow <3"], "addons\scripts\cow.sqf",[],10,false,false,"","local player"];
+waituntil {sleep 1;!alive _spawn};
+ RESCUE= false;
